@@ -1,0 +1,28 @@
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 1rem 2rem;
+  min-width: 10rem;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  border: 1px solid #ffc000;
+
+  &.active {
+    background-color: #ffc000;
+  }
+
+  &.disabled {
+    background-color: white;
+    color: black;
+    cursor: not-allowed;
+  }
+}
+
+button button:focus,
+button:focus-visible {
+  outline: #ffc000 4px auto -webkit-focus-ring-color;
+}
