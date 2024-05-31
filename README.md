@@ -85,8 +85,4 @@ npm run test:e2e:ui
 yarn test:e2e:ui
 ```
 
-This will run  all integration tests using Playwrigh.
-
-## Mock Server
-The project uses msw (Mock Service Worker) to mock API responses for integration tests. 
-
+This will run all integration tests using Playwright and mock API requests with file-based mock replacements.
