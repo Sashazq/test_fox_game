@@ -72,14 +72,20 @@ yarn prettier:check
 ```
 
 ## Testing
-To run the tests, run:
+1. To run the tests, run:
 ```bash
-npm run test
+npm run test:e2e
 # or
-yarn test
+yarn test:e2e
+```
+1. To run the tests with UI MODE (playwrigh debugged), run:
+```bash
+npm run test:e2e:ui
+# or
+yarn test:e2e:ui
 ```
 
-This will run all the tests using Vitest.
+This will run  all integration tests using Playwrigh.
 
 ## Mock Server
 The project uses msw (Mock Service Worker) to mock API responses for integration tests. 
