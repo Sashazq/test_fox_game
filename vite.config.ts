@@ -11,5 +11,6 @@ export default defineConfig({
     globals: true,
     setupFiles: "./setupTests.js", // assuming the test folder is in the root of our project
     testTimeout: 60000,
+    exclude: ["**/e2e/**", "**/tests-examples/**", "**/node_modules/**"],
   },
 });

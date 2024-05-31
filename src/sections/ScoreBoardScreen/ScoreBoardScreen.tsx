@@ -40,7 +40,7 @@ export default function ScoreBoardScreen() {
         </table>
       </div>
       <div className="controls">
-        <Button onClick={redirectToWelcomeScreen} title="To Welcome Screen!!" />
+        <Button onClick={redirectToWelcomeScreen} title="To Welcome Screen!" />
         <Button onClick={playAgain} title="Play!" />
       </div>
     </div>
